@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(254, 210, 98);
+    text-shadow: white 1px 1px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#start {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: solid .1px black;
+}
+
+header {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #060ce9;
+    border-radius: 5px;
+    padding: 1px;
+    margin-bottom: 10px;
+    border: solid 3px rgb(254, 210, 98);
+}
+
+#jeopardy {
+    text-align: center;
+    font-size: 10pt;
+    background-color: #060ce9;
+    color: white;
+    border-collapse: collapse;
+}
+
+#jeopardy th,
+#jeopardy td {
+    /* border: solid 1px white; */
+    border: solid 1px rgb(254, 210, 98);
+    border-radius: 3px;
+    width: 15em;
+    padding: 1em;
+}
+
+th {
+    text-decoration: underline rgb(254, 210, 98);
+    text-decoration-thickness: 1px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    height: 4em;
+    text-shadow: darkgoldenrod 1px 1px;
+}
+
+td {
+    height: 9em;
+    font-family: Copse, serif;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+#restart {
+    margin: 46%;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: solid .1px black;
+}
+
+#spin-container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(254, 210, 98);
+    font-size: 125px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
